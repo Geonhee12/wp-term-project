@@ -37,7 +37,6 @@
 
 - form 태그로 post method를 사용하여 body에 있는 입력값을 가져왔다.
 - password와 passwordchk를 확인하여 pssword가 맞는지 비교한다.
-
 - 알맞게 채워 넣으면 회원가입이 진행된다.
 
 
