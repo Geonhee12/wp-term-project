@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <!-- Style Sheet -->
+    <link href="./css/reset.css"  rel="stylesheet">
+    <link href="./css/sign.css"  rel="stylesheet">
+
+    <title>회원가입</title>
+</head>
+<body>
+     <!-- wrapper -->
+     <div class="container">
+        <div class="card card-container">
+            <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+            <p id="profile-name" class="profile-name-card"></p>
+            <form class="form-signin" method="post" action="/signup">
+                <span id="reauth-email" class="reauth-email"></span>     
+                <input type="text" id="username" class="form-control" placeholder="input id" name="username" required>
+                <input type="text" id="displayname" class="form-control"  placeholder="input nickname" name="displayname" required>
+                <input type="password" id="password" class="form-control" placeholder="input password" name="password" required>
+                <input type="password" id="passwordchk" class="form-control" placeholder="input password check" name="passwordchk" required>
+                <input type="email" id="email" class="form-control" placeholder="input email" name="email">
+                <input type="tel" id="tel" class="form-control" placeholder="input tel num" name="tel">
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
+            </form><!-- /form -->
+            <a class="forgot-password" href="/login">
+                have account?
+            </a>
+        </div><!-- /card-container -->
+    </div><!-- /container -->
+
+</body>
+</html>

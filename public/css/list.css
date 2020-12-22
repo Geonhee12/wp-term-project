@@ -1,0 +1,18 @@
+
+#card{
+    margin: 0 auto;
+    margin-top: 300px;
+    height: 300px;
+    width: 300px;    
+
+}
+
+#card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#title{
+    text-align: center;
+}
